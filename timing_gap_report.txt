@@ -1,0 +1,40 @@
+# Timing gap analysis: log2
+
+## Cell delay fall (matched arcs) (n=49622)
+  mean ratio GCS/PT = 0.9714  (-2.86%)
+  median ratio       = 0.9655  (-3.45%)
+  mean diff          = -1.103 ps   rmse = 1.979 ps
+  ratio histogram: <0.9=184, 0.9-1.0=40033, 1.0-1.1=8901, 1.1-1.2=413, >1.2=91
+## Cell delay rise (matched arcs) (n=49623)
+  mean ratio GCS/PT = 0.9851  (-1.49%)
+  median ratio       = 0.9737  (-2.63%)
+  mean diff          = -0.807 ps   rmse = 2.169 ps
+  ratio histogram: <0.9=98, 0.9-1.0=36902, 1.0-1.1=11058, 1.1-1.2=957, >1.2=608
+  matched cell arcs: 49623  gcs-only=25462  pt-only=0
+
+## Cell delay ratio by cell type (fall)
+  CTS/FE_*: n=587 mean_ratio=0.9610 (-3.9%)
+
+## Net delay fall (matched arcs): no matched positive delays
+## Net delay rise (matched arcs): no matched positive delays
+## Net delay fall (filtered meaningful)
+  no arcs passing filter
+  matched net arcs: 0
+
+## Clock pin AT: no common pins
+## Top clock AT |fall diff| (GCS - PT)
+
+## Path AT (D pins only): no common pins
+
+## Path decomposition: data segment = D_AT - CLK_AT (fall)
+  no D pins
+
+## Error budget on worst D pins (fall)
+  no D pins
+
+## Launch Q pin AT (FF output / path start)
+  no launch Q data (run export_pt_launch.tcl)
+
+## CK->Q arc delay ratio (from cell_named CLK->Q/QN arcs)
+  no matched CK->Q arcs
+

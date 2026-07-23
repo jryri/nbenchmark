@@ -1,0 +1,372 @@
+
+                                  StarRC (TM)
+
+               Version V-2023.12-SP3 for linux64 - Apr 19, 2024 
+
+                    Copyright (c) 1999 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+ExecName: /home/Student/edatools/synopsys/starrc/starrc/V-2023.12-SP3/linux64_starrc/bin/StarXtract
+Version: V-2023.12-SP3
+Built on: Apr 19 2024 19:19:29
+Start Time: Thu Jul 23 18:00:18 2026
+
+Host ............ IDEA-PC
+
+xTractorName: /home/Student/edatools/synopsys/starrc/starrc/V-2023.12-SP3/linux64_starrc/bin/xTractor
+Version: V-2023.12-SP3
+Built on: Apr 19 2024 19:19:07
+WARNING: ITF Process Header is needed for advanced process node. Please add process header
+         information to ITF and rerun grdgenxo. (GRD-1018)
+
+Called as: StarXtract -clean /home/edaworker/spef_w_layer/des/log2/run_starRC.cmd 
+Run Directory: /home/edaworker/spef_w_layer/des/log2
+WARNING: Command -clean is obsoleted for GATE level extraction and turned on by default. (SX-3582)
+Read unit 1000 from tech LEF file
+/home/edaworker/asap7nm/asap7sc7p5t_28/techlef_misc/asap7_tech_1x_201209.lef. Using Units:1000 to
+translate LEF. (SX-2158)
+Read unit 1000 from top DEF file /home/edaworker/spef_w_layer/des/log2/top_rvt_gr.def. Using
+Units:1000 to translate top DEF. (SX-2158)
+WARNING: DEF_MASKSHIFT_CONSISTENCY_CHECK may incur performance penalty in preXtraction. (SX-2105)
+WARNING: INPUT_NAMES_ESCAPE_REMOVAL is enabled, please make sure that the net select commands remove
+         the escape at the same time. (SX-3860)
+All memory statistics reported in the run refers to peak memory used by one core during respective
+stage. (SX-4032)
+
+Block ........... top
+Star Directory .. /home/edaworker/spef_w_layer/des/log2/starrc_work
+WARNING: Running StarRC in single corner mode will result in degraded runtime for design flows where
+         multiple corners are used.  For optimal runtime, add the necessary commands to configure
+         the Simultaneous Multicorner flow (CORNERS_FILE and SELECTED_CORNERS). (SX-3552)
+LEF file ........ /home/edaworker/asap7nm/asap7sc7p5t_28/techlef_misc/asap7_tech_1x_201209.lef
+LEF file ........ /home/edaworker/asap7nm/asap7sc7p5t_28/LEF/asap7sc7p5t_28_R_1x_220121a.lef
+Top DEF File .... /home/edaworker/spef_w_layer/des/log2/top_rvt_gr.def
+WARNING: DENSITY_BASED_THICKNESS: YES is ignored since there is no thickness variation modeling. (SX-0685)
+  Setup         Elp=00:00:03 Cpu=00:00:00 Usr=0.8    Sys=0.0    Mem=1020.7
+Done
+
+Map Layers:  Thu Jul 23 18:00:21 2026
+WARNING: LEF LAYER 'nwell' is not defined in mapping file (SX-2086)
+WARNING: LEF LAYER 'pwell' is not defined in mapping file (SX-2086)
+WARNING: LEF LAYER 'Gate' is not defined in mapping file (SX-2086)
+WARNING: LEF LAYER 'Active' is not defined in mapping file (SX-2086)
+WARNING: LAYER 'V0' has no VIA connection (SX-2076)
+WARNING: Setting RPV*AREA value of 1e-6 for V9 (SX-1873)
+  Warnings: 6    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=1020.8
+Done
+
+Build HN:  Thu Jul 23 18:00:24 2026
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=1023.8
+Done
+
+Process Cells:  Thu Jul 23 18:00:25 2026
+WARNING: Pin 'a0' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a1' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a2' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a3' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a4' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a5' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a6' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a7' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a8' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a9' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a10' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a11' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a12' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a13' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a14' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a15' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a16' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a17' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a18' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a19' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a20' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a21' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a22' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a23' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a24' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a25' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a26' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a27' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a28' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a29' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a30' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'a31' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result0' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result1' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result2' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result3' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result4' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result5' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result6' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result7' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result8' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result9' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result10' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result11' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result12' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result13' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result14' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result15' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result16' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result17' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result18' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result19' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result20' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result21' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result22' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result23' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result24' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result25' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result26' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result27' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result28' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result29' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result30' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+WARNING: Pin 'result31' does not have top-level routing shapes. Pin geometries are derived from the
+         overlapping instance port shapes. (SX-2399)
+  Warnings: 64    Errors: 0    (See file summary/cells.sum)
+  Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=1025.2
+Done
+
+Translate DB:  Thu Jul 23 18:00:26 2026
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=1026.7
+Done
+
+Netlist Setup:  Thu Jul 23 18:00:27 2026
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=521.8 
+Done
+
+GPD XtractSetup:  Thu Jul 23 18:00:30 2026
+  Warnings: 0    Errors: 0
+  GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=1025.1
+Done
+
+GPD NameMap:  Thu Jul 23 18:00:33 2026
+  Warnings: 0    Errors: 0
+  GPD_NameMap   Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=523.8 
+Done
+
+xTract DB:  Thu Jul 23 18:00:36 2026
+Completed   0%  Time=00:00:00  RemainingTime=00:00:06  Mem=1277.95
+Completed   1%  Time=00:00:00  RemainingTime=00:00:06  Mem=1283.42
+Completed   2%  Time=00:00:00  RemainingTime=00:00:05  Mem=1288.73
+Completed   3%  Time=00:00:00  RemainingTime=00:00:06  Mem=1294.51
+Completed   4%  Time=00:00:00  RemainingTime=00:00:06  Mem=1300.07
+Completed   5%  Time=00:00:00  RemainingTime=00:00:06  Mem=1305.7
+Completed  10%  Time=00:00:00  RemainingTime=00:00:09  Mem=1348.62
+Completed  15%  Time=00:00:01  RemainingTime=00:00:10  Mem=1402.45
+Completed  20%  Time=00:00:02  RemainingTime=00:00:09  Mem=1440.41
+Completed  25%  Time=00:00:02  RemainingTime=00:00:09  Mem=1474.81
+Completed  30%  Time=00:00:03  RemainingTime=00:00:07  Mem=1502.75
+Completed  35%  Time=00:00:03  RemainingTime=00:00:07  Mem=1529.19
+Completed  40%  Time=00:00:03  RemainingTime=00:00:06  Mem=1556.62
+Completed  45%  Time=00:00:04  RemainingTime=00:00:05  Mem=1583.88
+Completed  50%  Time=00:00:04  RemainingTime=00:00:05  Mem=1611.31
+Completed  55%  Time=00:00:04  RemainingTime=00:00:04  Mem=1640
+Completed  60%  Time=00:00:05  RemainingTime=00:00:03  Mem=1670.94
+Completed  65%  Time=00:00:06  RemainingTime=00:00:03  Mem=1708.88
+Completed  70%  Time=00:00:06  RemainingTime=00:00:03  Mem=1779.57
+Completed  75%  Time=00:00:07  RemainingTime=00:00:02  Mem=1815.7
+Completed  80%  Time=00:00:07  RemainingTime=00:00:02  Mem=1847.2
+Completed  85%  Time=00:00:08  RemainingTime=00:00:01  Mem=1874.45
+Completed  90%  Time=00:00:08  RemainingTime=00:00:01  Mem=1903.26
+Completed  95%  Time=00:00:08  RemainingTime=00:00:01  Mem=1929.88
+Completed 100%  Time=00:00:09  RemainingTime=00:00:00  Mem=1949.01
+Extracted 451559 capacitors, 1642151 resistors, 1543932 nodes
+Reduced to 1300261 nodes,  (15.7825%)
+Reduced to 1269657 resistors,  (22.6833%)
+  Warnings: 0    Errors: 0
+  xTract        Elp=00:00:15 Cpu=00:00:15 Usr=14.7   Sys=0.4    Mem=1949.5
+Done
+
+xTract Post Process DB:  Thu Jul 23 18:00:55 2026
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=387.7 
+Done
+
+Report Violations:  Thu Jul 23 18:00:58 2026
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=519.9 
+Done
+
+Report Opens:  Thu Jul 23 18:01:01 2026
+  Warnings: 0    Errors: 0
+  ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=519.9 
+Done
+
+GPD Post Process:  Thu Jul 23 18:01:04 2026
+  Warnings: 0    Errors: 0
+  GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=520.3 
+Done
+
+GPD Converter Part 1:  Thu Jul 23 18:01:07 2026
+  Warnings: 0    Errors: 0
+  GPD_Converter1 Elp=00:00:03 Cpu=00:00:02 Usr=2.2    Sys=0.1    Mem=418.9 
+Done
+
+GPD Converter Part 2:  Thu Jul 23 18:01:13 2026
+  Warnings: 0    Errors: 0
+  GPD_Converter2 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=382.0 
+Done
+
+GPD Converter Merge:  Thu Jul 23 18:01:16 2026
+  Warnings: 0    Errors: 0
+  GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=381.9 
+Done
+  
+Setup               Elp=00:00:03 Cpu=00:00:00 Usr=0.8    Sys=0.0    Mem=1020.7
+Layers              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=1020.8
+HN                  Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=1023.8
+Cells               Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=1025.2
+Translate           Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=1026.7
+NetlistSetup        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=521.8 
+GPD_XtractSetup     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=1025.1
+GPD_NameMap         Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=523.8 
+xTract              Elp=00:00:15 Cpu=00:00:15 Usr=14.7   Sys=0.4    Mem=1949.5
+xTractPP            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=387.7 
+ReportViolations    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=519.9 
+ReportOpens         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=519.9 
+GPD_PostProcess     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=520.3 
+GPD_Converter1      Elp=00:00:03 Cpu=00:00:02 Usr=2.2    Sys=0.1    Mem=418.9 
+GPD_Converter2      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=382.0 
+GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=381.9 
+  
+Done          Elp=00:00:21 Cpu=00:00:19 Usr=18.6   Sys=0.5    Mem=1949.5
+
+End Time: Thu Jul 23 18:01:21 2026
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:03 Cpu=00:00:00 Mem=1020.7 |Jul 23 18:00:21 |IDEA-PC
+CPU_01 |*Layers                    Elp=00:00:01 Cpu=00:00:00 Mem=1020.8 |Jul 23 18:00:22 |IDEA-PC
+CPU_01 |*HN                        Elp=00:00:01 Cpu=00:00:00 Mem=1023.8 |Jul 23 18:00:25 |IDEA-PC
+CPU_01 |*Cells                     Elp=00:00:01 Cpu=00:00:00 Mem=1025.2 |Jul 23 18:00:26 |IDEA-PC
+CPU_01 |*Translate                 Elp=00:00:01 Cpu=00:00:00 Mem=1026.7 |Jul 23 18:00:27 |IDEA-PC
+CPU_01 |*NetlistSetup              Elp=00:00:01 Cpu=00:00:00 Mem=521.8  |Jul 23 18:00:28 |IDEA-PC
+CPU_01 |*GPD_XtractSetup           Elp=00:00:01 Cpu=00:00:00 Mem=1025.1 |Jul 23 18:00:31 |IDEA-PC
+CPU_01 |*GPD_NameMap               Elp=00:00:01 Cpu=00:00:00 Mem=523.8  |Jul 23 18:00:34 |IDEA-PC
+CPU_01 |*xTract                    Elp=00:00:17 Cpu=00:00:15 Mem=1949.5 |Jul 23 18:00:51 |IDEA-PC
+CPU_01 |*xTractPP                  Elp=00:00:05 Cpu=00:00:00 Mem=387.7  |Jul 23 18:00:56 |IDEA-PC
+CPU_01 |*ReportViolations          Elp=00:00:01 Cpu=00:00:00 Mem=519.9  |Jul 23 18:00:59 |IDEA-PC
+CPU_01 |*ReportOpens               Elp=00:00:01 Cpu=00:00:00 Mem=519.9  |Jul 23 18:01:02 |IDEA-PC
+CPU_01 |*GPD_PostProcess           Elp=00:00:01 Cpu=00:00:00 Mem=520.3  |Jul 23 18:01:05 |IDEA-PC
+CPU_01 |*GPD_Converter_DP          Elp=00:00:07 Cpu=00:00:02 Mem=418.9  |Jul 23 18:01:14 |IDEA-PC
+CPU_01 |*GPD_Converter_merge       Elp=00:00:01 Cpu=00:00:00 Mem=381.9  |Jul 23 18:01:17 |IDEA-PC
+----------------------------------------------------------------------------------------------
+Start Time: Thu Jul 23 18:00:18 2026
+End Time: Thu Jul 23 18:01:05 2026
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:47 Cpu= 00:00:16 Peak_Mem(MB)=1949.5
+PreXtraction:    Elp=00:00:16 Cpu= 00:00:01 Peak_Mem(MB)=1026.7
+Xtraction:       Elp=00:00:17 Cpu= 00:00:15 Peak_Mem(MB)=1949.5
+PostXtraction:   Elp=00:00:14 Cpu= 00:00:00 Peak_Mem(MB)=520.3
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:10 Cpu= 00:00:02 Peak_Mem(MB)=418.9
+----------------------------------------------------------------------------------------------
+
+
+NOTE: Simultaneous Multicorner (SMC) is now the default mode for StarRC gate-level extraction.
+By running SMC, the overall runtime can be reduced by up to 2x with the same level of accuracy
+as single corner extraction. For more information, consult the Simultaneous Multicorner Section
+in the StarRC User Guide.
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+GRD-1018(x   1)|Warning      |ITF PROCESS HEADER IS NEEDED FOR ADVANCED PROCESS NODE. PLEASE ADD PROCESS HEADER INFORMATION TO ITF AND RERUN GRDGENXO. 
+SX-0685 (x   1)|Warning      |DENSITY_BASED_THICKNESS: YES IS IGNORED SINCE THERE IS NO THICKNESS VARIATION MODELING.
+SX-1873 (x   1)|Warning      |SETTING RPV*AREA VALUE OF 1E-6 FOR ()
+SX-2076 (x   1)|Warning      |LAYER '()' HAS NO VIA CONNECTION
+SX-2086 (x   4)|Warning      |LEF LAYER '()' IS NOT DEFINED IN MAPPING FILE
+SX-2105 (x   1)|Warning      |DEF_MASKSHIFT_CONSISTENCY_CHECK MAY INCUR PERFORMANCE PENALTY IN PREXTRACTION.
+SX-2158 (x   2)|Information  |READ UNIT () FROM () FILE (). USING UNITS:() TO TRANSLATE ().
+SX-2399 (x  64)|Warning      |PIN '()' DOES NOT HAVE TOP-LEVEL ROUTING SHAPES. PIN GEOMETRIES ARE DERIVED FROM THE OVERLAPPING INSTANCE PORT SHAPES.
+SX-3552 (x   1)|Warning      |RUNNING STARRC IN SINGLE CORNER MODE WILL RESULT IN DEGRADED RUNTIME FOR DESIGN FLOWS WHERE MULTIPLE CORNERS ARE USED.  FOR OPTIMAL RUNTIME, ADD THE NECESSARY COMMANDS TO CONFIGURE THE SIMULTANEOUS MULTICORNER FLOW (CORNERS_FILE AND SELECTED_CORNERS).
+SX-3582 (x   1)|Warning      |COMMAND -CLEAN IS OBSOLETED FOR GATE LEVEL EXTRACTION AND TURNED ON BY DEFAULT.
+SX-3860 (x   1)|Warning      |INPUT_NAMES_ESCAPE_REMOVAL IS ENABLED, PLEASE MAKE SURE THAT THE NET SELECT COMMANDS REMOVE THE ESCAPE AT THE SAME TIME.
+SX-4032 (x   1)|Information  |ALL MEMORY STATISTICS REPORTED IN THE RUN REFERS TO PEAK MEMORY USED BY ONE CORE DURING RESPECTIVE STAGE.
+

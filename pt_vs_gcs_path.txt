@@ -1,0 +1,54 @@
+# GCS vs PrimeTime path AT: log2
+# filter=po  gcs=gcs_path.results  pt=test.pt
+# common=32  only_gcs=0  only_pt=0
+
+## Summary (GCS - PT, ps)
+fall: mean=+9864.523  rmse=9866.168  max_abs=10067.213
+rise: mean=+9897.452  rmse=9899.112  max_abs=10075.141
+threshold=5.0 ps
+
+pins above threshold: fall=32  rise=32
+
+## Top 20 |fall diff|
+  result28: gcs=5001.362 pt=-5065.850 diff=+10067.213
+  result31: gcs=4995.132 pt=-5059.932 diff=+10055.064
+  result18: gcs=4983.242 pt=-5047.246 diff=+10030.488
+  result30: gcs=4981.083 pt=-5045.765 diff=+10026.847
+  result20: gcs=4975.080 pt=-5042.036 diff=+10017.116
+  result27: gcs=4972.770 pt=-5043.987 diff=+10016.757
+  result26: gcs=4960.490 pt=-5026.680 diff=+9987.169
+  result17: gcs=4959.334 pt=-5026.594 diff=+9985.928
+  result12: gcs=4953.597 pt=-5021.698 diff=+9975.295
+  result16: gcs=4953.942 pt=-5017.886 diff=+9971.827
+  result24: gcs=4949.017 pt=-5013.090 diff=+9962.107
+  result29: gcs=4949.263 pt=-5012.198 diff=+9961.461
+  result22: gcs=4948.130 pt=-5013.147 diff=+9961.277
+  result15: gcs=4943.752 pt=-5009.476 diff=+9953.228
+  result25: gcs=4939.739 pt=-5012.860 diff=+9952.599
+  result21: gcs=4937.711 pt=-5005.514 diff=+9943.225
+  result13: gcs=4935.989 pt=-5005.189 diff=+9941.178
+  result14: gcs=4932.359 pt=-5001.651 diff=+9934.011
+  result23: gcs=4930.894 pt=-4991.913 diff=+9922.806
+  result19: gcs=4929.369 pt=-4989.393 diff=+9918.762
+
+## Top 20 |rise diff|
+  result20: gcs=5004.101 pt=-5071.040 diff=+10075.141
+  result28: gcs=5001.862 pt=-5066.302 diff=+10068.163
+  result12: gcs=4997.115 pt=-5064.708 diff=+10061.823
+  result30: gcs=4993.760 pt=-5059.048 diff=+10052.808
+  result16: gcs=4988.597 pt=-5053.773 diff=+10042.370
+  result31: gcs=4987.152 pt=-5051.518 diff=+10038.670
+  result27: gcs=4983.796 pt=-5054.222 diff=+10038.018
+  result24: gcs=4985.144 pt=-5051.438 diff=+10036.582
+  result26: gcs=4983.282 pt=-5049.508 diff=+10032.790
+  result22: gcs=4983.079 pt=-5046.818 diff=+10029.897
+  result18: gcs=4971.816 pt=-5038.102 diff=+10009.917
+  result15: gcs=4969.971 pt=-5037.231 diff=+10007.202
+  result17: gcs=4963.872 pt=-5031.083 diff=+9994.955
+  result14: gcs=4959.747 pt=-5028.804 diff=+9988.551
+  result29: gcs=4960.604 pt=-5023.215 diff=+9983.819
+  result25: gcs=4957.508 pt=-5026.175 diff=+9983.683
+  result21: gcs=4955.348 pt=-5023.198 diff=+9978.547
+  result13: gcs=4953.667 pt=-5024.062 diff=+9977.728
+  result23: gcs=4943.722 pt=-5004.667 diff=+9948.389
+  result10: gcs=4933.966 pt=-5001.775 diff=+9935.741
